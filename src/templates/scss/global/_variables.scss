@@ -1,0 +1,23 @@
+// Breakpoints
+$breakpoint-minimum: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-tablet-horizontal: 1024px;
+$breakpoint-desktop: 1200px;
+
+// Colours
+$colour-black: #000;
+
+// Fonts
+$font-title: Prata, serif;
+$font-text: Cairo, sans-serif;
+
+// Font-sizes
+%size-text {
+  font-size: 14px;
+  line-height: 18px;
+
+  @media (min-width: $breakpoint-tablet-horizontal) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

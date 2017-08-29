@@ -1,0 +1,29 @@
+body {
+  @extend %size-text;
+  font-family: $font-text;
+  color: $colour-black;
+}
+
+a {
+  color: deepskyblue;
+}
+
+h1 {
+  font-family: $font-title;
+}
+
+h2 {
+  font-family: $font-title;
+}
+
+h3 {
+  font-family: $font-title;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.hidden {
+  display: none;
+}
